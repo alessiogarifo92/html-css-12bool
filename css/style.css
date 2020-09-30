@@ -1,0 +1,29 @@
+
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole per svolgimento esercizio */
+
+.row{
+  background-color: pink;
+  min-height: 100px;
+}
+
+[class*="col-"] {
+  border: 1px solid black;
+  height: 100px;
+}
+
+/* regole per footer */
+
+#foot-left,
+#foot-right{
+  float: left;
+  width: 50%;
+  background-color: magenta;
+  border: 1px solid white;
+}
