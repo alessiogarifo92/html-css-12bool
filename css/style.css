@@ -18,6 +18,13 @@
   height: 100px;
 }
 
+p{
+  line-height: 100px;
+  text-align: center;
+  font-size: 10px;
+}
+
+
 /* regole per footer */
 
 footer{
