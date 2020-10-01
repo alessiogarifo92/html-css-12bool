@@ -18,35 +18,20 @@
   height: 100px;
 }
 
+/* regole per footer */
+
+.row .col-6 div{
+  background-color: salmon;
+  border: 1px solid white;
+  height: 95px;
+}
+
+.row .final{
+  padding: 3px 3px;
+}
+
 p{
   line-height: 100px;
   text-align: center;
   font-size: 10px;
-}
-
-
-/* regole per footer */
-
-footer{
-  border: 1px solid black;
-}
-
-#foot-left,
-#foot-right{
-  float: left;
-  width: 50%;
-  background-color: pink;
-  border: 1px solid black;
-  padding: 5px;
-}
-
-#foot-left > .col-8,
-#foot-left > .col-2 {
-  border: 1px solid white;
-  background-color: magenta;
-}
-
-#foot-right > .col-6 {
-  border: 1px solid white;
-  background-color: magenta;
 }
